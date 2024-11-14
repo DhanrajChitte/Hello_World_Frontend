@@ -1,7 +1,7 @@
 function getMessage() {
   const language = document.getElementById("language").value;
   fetch(
-    `https://hello-world-translations.onrender.com/hello?language=${language}`
+    `https://hello-world-conversion-backend.onrender.com/hello?language=${language}`
   )
     .then((response) => response.text())
     .then((data) => {
